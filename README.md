@@ -7,6 +7,8 @@ You should have capistrano and bundler installed.
 More information:
 - https://github.com/capistrano/capistrano
 
+[![wercker status](https://app.wercker.com/status/85c72d233dc01f98af1d3413b311d3ce/m "wercker status")](https://app.wercker.com/project/bykey/85c72d233dc01f98af1d3413b311d3ce)
+
 # What's new
 
 - Update readme
