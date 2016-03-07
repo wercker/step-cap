@@ -10,6 +10,10 @@
 
 cap_command="bundle exec cap"
 
+if [ -n "$WERCKER_CAP_COMMAND" ] ; then
+    cap_command=$WERCKER_CAP_COMMAND
+fi
+
 # Parse some variable arguments
 if [ -n "$WERCKER_CAP_STAGE" ] ; then
     cap_command="$cap_command $WERCKER_CAP_STAGE"

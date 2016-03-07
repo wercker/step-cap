@@ -17,6 +17,7 @@ More information:
 
 * `tasks` (optional, default: `deploy`) The tasks which will be run.
 * `stage` (optional) The stage which will be used for the deployment. Requires [multistage extension](https://github.com/capistrano/capistrano/wiki/2.x-Multistage-Extension).
+* `command` (optional, default: `bundle exec cap`) command to run.
 
 # Example
 
@@ -43,6 +44,10 @@ Note however that this will also apply to your local repository, so another reco
 The MIT License (MIT)
 
 # Changelog
+
+## 0.0.5
+
+- Ability overwrite cap command, added `command` option
 
 ## 0.0.4
 
