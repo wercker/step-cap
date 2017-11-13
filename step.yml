@@ -1,0 +1,6 @@
+name: cap
+version: 1.0.0
+summary: cap step
+tags:
+  - capistrano
+  - ruby
